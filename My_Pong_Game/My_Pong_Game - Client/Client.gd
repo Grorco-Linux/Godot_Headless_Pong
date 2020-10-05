@@ -21,7 +21,7 @@ func _ready():
 	# /root/Game/1127929689 from: 1127929689. Mode is 3, master is 1.
 	# It's because you skipped the following, and by default the master is set
 	# to the server (id 1) using mode 3 (RPC_MODE_PUPPET)
-	# if you want something other than puppet use
+	# if you want something other than puppet create it with the desired mode or use
 	# rset_config('var_name', enum or MultiplayerAPI.Desired_Mode)
 	
 	# Set the network master for this node to the network id of the node
